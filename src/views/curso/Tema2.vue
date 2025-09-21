@@ -200,7 +200,7 @@
             p(data-aos="fade-left").mb-4 A continuación, se presenta un pódcast que expone los beneficios de integrar pruebas automatizadas en los procesos de CI/CD, así como las buenas prácticas clave para su implementación efectiva en entornos de desarrollo ágil.
     
             TarjetaAudio.color-acento-botones.bg-color-white.mb-3(
-              texto="Fundamentos de la innovación estratégica"
+              texto="Pruebas en CI/CD: Beneficios y Buenas Prácticas"
               tiempo
               :audio="require('../../assets/curso/podcast/podcast1.mp3')"
             )
