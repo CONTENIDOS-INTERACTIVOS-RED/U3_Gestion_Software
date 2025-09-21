@@ -10,7 +10,7 @@
             img(src='@/assets/curso/tema1/1.png', alt='')
         .col-lg
           .p-4
-            p.mb-0(data-aos="fade-up") La Integración Continua es una práctica esencial en el desarrollo ágil de software que promueve la integración frecuente del código por parte de los desarrolladores en un repositorio compartido. Cada integración se verifica automáticamente mediante la ejecución de pruebas y validaciones, lo que permite detectar errores de forma temprana y mantener la estabilidad del proyecto. Esta metodología reduce los conflictos al fusionar cambios, facilita la colaboración entre equipos y garantiza que el software esté en un estado funcional en todo momento, sirviendo como base sólida para una entrega continua eficiente (Naik & Naik, 2024).
+            p.mb-0(data-aos="fade-up") La Integración Continua es una práctica esencial en el desarrollo ágil de <em>software</em> que promueve la integración frecuente del código por parte de los desarrolladores en un repositorio compartido. Cada integración se verifica automáticamente mediante la ejecución de pruebas y validaciones, lo que permite detectar errores de forma temprana y mantener la estabilidad del proyecto. Esta metodología reduce los conflictos al fusionar cambios, facilita la colaboración entre equipos y garantiza que el <em>software</em> esté en un estado funcional en todo momento, sirviendo como base sólida para una entrega continua eficiente (Naik & Naik, 2024).
 
     #t_1_1.titulo-segundo(data-aos="flip-up")
       h2 #[span 1.1] Fundamentos de la Integración Continua (CI)
@@ -20,7 +20,7 @@
         figure
           img(src="@/assets/curso/tema1/2.svg", data-aos="zoom-in")
       .col-lg-8.order-lg-1
-        p(data-aos="fade-left") La Integración Continua (CI, por sus siglas en inglés) es una práctica central en la ingeniería moderna de software que busca mejorar la calidad del código y acelerar el proceso de desarrollo mediante la integración frecuente de pequeños cambios en un repositorio central. Esta metodología se apoya en herramientas automatizadas para compilar, probar y validar cada cambio realizado, lo que permite detectar errores de manera temprana y reducir significativamente los problemas de integración al final del ciclo de vida del software. 
+        p(data-aos="fade-left") La Integración Continua (CI, por sus siglas en inglés) es una práctica central en la ingeniería moderna de <em>software</em> que busca mejorar la calidad del código y acelerar el proceso de desarrollo mediante la integración frecuente de pequeños cambios en un repositorio central. Esta metodología se apoya en herramientas automatizadas para compilar, probar y validar cada cambio realizado, lo que permite detectar errores de manera temprana y reducir significativamente los problemas de integración al final del ciclo de vida del <em>software</em>. 
     
     .titulo-figura.mb-4
       h5 Figura 1.
@@ -44,7 +44,7 @@
     
         .bg-color-2.p-5(data-aos="fade-left")
           h4 Ejemplo:
-          p En un equipo que desarrolla una aplicación web, cada vez que un programador incorpora una nueva funcionalidad al repositorio Git, Jenkins ejecuta automáticamente un pipeline que compila el proyecto, realiza las pruebas automatizadas y verifica que todo funcione correctamente. Si ocurre algún fallo, se detecta de inmediato, evitando que el error afecte al resto del sistema.
+          p En un equipo que desarrolla una aplicación web, cada vez que un programador incorpora una nueva funcionalidad al repositorio Git, <em>Jenkins</em> ejecuta automáticamente un pipeline que compila el proyecto, realiza las pruebas automatizadas y verifica que todo funcione correctamente. Si ocurre algún fallo, se detecta de inmediato, evitando que el error afecte al resto del sistema.
     
     h2(data-aos="fade-left").mb-5 Objetivos de la integración continua
 
@@ -62,7 +62,7 @@
               p.mb-0 Detectar errores de forma temprana, ya que los fallos se identifican justo después de ser introducidos.
             li.mb-0.d-flex
               i.far.fa-arrow-alt-circle-right
-              p.mb-0 Mejorar la calidad del software, mediante pruebas automáticas constantes que validan la funcionalidad esperada.
+              p.mb-0 Mejorar la calidad del <em>software</em>, mediante pruebas automáticas constantes que validan la funcionalidad esperada.
             li.mb-0.d-flex
               i.far.fa-arrow-alt-circle-right
               p.mb-0 Reducir el tiempo de entrega, al mantener el código siempre listo para ser desplegado.
@@ -87,7 +87,7 @@
             div.bg-color-white.box-shadow.px-4.py-5.h-100
               img.mx-auto.d-block.mb-4(src="@/assets/curso/tema1/7.svg" alt="" style="width: 90px")
               h5.text-center Servidor de integración continua
-              p.mb-0.text-center Herramienta como Jenkins, GitLab CI o CircleCI que automatiza tareas al detectar cambios.
+              p.mb-0.text-center Herramienta como <em>Jenkins</em>, GitLab CI o CircleCI que automatiza tareas al detectar cambios.
         
           div.col-lg-3.mb-4(data-aos="zoom-in-up")
             div.bg-color-white.box-shadow.px-4.py-5.h-100
@@ -108,7 +108,7 @@
             img(src="@/assets/curso/tema1/10.svg", style="max-width: 90px").mx-auto
           .col-lg.text-white
             h5.mb-0 Ejemplo:
-            p.mb-0 Un equipo que utiliza GitHub puede configurar flujos de trabajo con GitHub Actions para validar automáticamente el código cuando se crea una nueva rama o se genera un pull request, garantizando el cumplimiento de los estándares del proyecto.
+            p.mb-0 Un equipo que utiliza GitHub puede configurar flujos de trabajo con GitHub Actions para validar automáticamente el código cuando se crea una nueva rama o se genera un <em>pull requests</em>, garantizando el cumplimiento de los estándares del proyecto.
 
     h2(data-aos="fade-left").mb-5 Beneficios de adoptar integración continua
 
@@ -156,7 +156,7 @@
               p.mb-0 Mantener un entorno de pruebas similar al de producción.
             li.mb-0.d-flex
               i.far.fa-arrow-alt-circle-right
-              p.mb-0 Configurar el sistema para que detenga el build si se detectan errores.
+              p.mb-0 Configurar el sistema para que detenga el <em>build</em> si se detectan errores.
             li.mb-0.d-flex
               i.far.fa-arrow-alt-circle-right
               p.mb-0 Enviar notificaciones automáticas al equipo en caso de fallos.
@@ -171,7 +171,7 @@
             img(src='@/assets/curso/tema1/13.png', alt='')
         .col-lg
           .p-4
-            p.mb-0(data-aos="fade-up") Las herramientas de integración continua (CI) son esenciales para la automatización en el desarrollo de software moderno (Smart, 2011). Estas plataformas permiten configurar, ejecutar y monitorear procesos automáticos que se activan cada vez que el código fuente se actualiza en el repositorio. Gracias a ellas, los equipos pueden compilar, probar y validar el código de forma inmediata y repetible, lo que contribuye a reducir errores y acelerar la entrega de soluciones funcionales.
+            p.mb-0(data-aos="fade-up") Las herramientas de integración continua (CI) son esenciales para la automatización en el desarrollo de <em>software</em> moderno (Smart, 2011). Estas plataformas permiten configurar, ejecutar y monitorear procesos automáticos que se activan cada vez que el código fuente se actualiza en el repositorio. Gracias a ellas, los equipos pueden compilar, probar y validar el código de forma inmediata y repetible, lo que contribuye a reducir errores y acelerar la entrega de soluciones funcionales.
 
     h2(data-aos="fade-left") Propósito y funciones de las herramientas de CI
     p.mb-5 Además de coordinar la integración del código, estas herramientas gestionan múltiples tareas complementarias:
@@ -225,15 +225,15 @@
               figure
                 img(src="@/assets/curso/tema1/20.svg")
             .col-lg-7
-              h5 Jenkins
-              p Plataforma de código abierto que permite construir pipelines definidos como código (Jenkinsfile) e integrarse con Git, Docker, Maven, Gradle, entre otros. Ejemplo: en un equipo Java, Jenkins puede compilar con Maven, probar con JUnit y desplegar si todo es exitoso.
+              h5 <em>Jenkins</em>
+              p Plataforma de código abierto que permite construir <em>pipelines</em> definidos como código (<em>Jenkins</em>file) e integrarse con Git, <em>Docker</em>, Maven, Gradle, entre otros. Ejemplo: en un equipo Java, <em>Jenkins</em> puede compilar con Maven, probar con JUnit y desplegar si todo es exitoso.
           .row.align-items-center.p-4.p-md-5
             .col-lg-3.mb-3.mb-lg-0
               figure
                 img(src="@/assets/curso/tema1/21.svg")
             .col-lg-9
               h5 GitHub Actions
-              p Integrada en GitHub, permite definir flujos de trabajo (workflows) mediante archivos YAML. Ideal para quienes ya usan GitHub como repositorio. Ejemplo: en Node.js, puede ejecutar pruebas con Jest y generar reportes automáticamente.
+              p Integrada en GitHub, permite definir flujos de trabajo (<em>workflows</em>) mediante archivos YAML. Ideal para quienes ya usan GitHub como repositorio. Ejemplo: en Node.js, puede ejecutar pruebas con Jest y generar reportes automáticamente.
           .row.align-items-center.p-4.p-md-5
             .col-lg-3.mb-3.mb-lg-0
               figure
@@ -247,22 +247,22 @@
                 img(src="@/assets/curso/tema1/23.svg")
             .col-lg-7
               h5 CircleCI
-              p Destacada por su rapidez e integración con contenedores Docker. Permite configuraciones declarativas y un control detallado de entornos de ejecución.
+              p Destacada por su rapidez e integración con contenedores <em>Docker</em>. Permite configuraciones declarativas y un control detallado de entornos de ejecución.
 
-    h2(data-aos="fade-left").mb-5 Ejecución de pipelines en CI
+    h2(data-aos="fade-left").mb-5 Ejecución de <em>pipelines</em> en CI
 
     .row.mb-5
       .col-lg-4.order-lg-2.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema1/24.png", data-aos="zoom-in")
       .col-lg-8.order-lg-1
-        p(data-aos="fade-left") Cada herramienta de CI ejecuta flujos de trabajo (pipelines) que siguen una secuencia definida de pasos. Un pipeline típico incluye:
+        p(data-aos="fade-left") Cada herramienta de CI ejecuta flujos de trabajo (<em>pipelines</em>) que siguen una secuencia definida de pasos. Un pipeline típico incluye:
     
         .bg-color-1.p-5(data-aos="fade-left").mb-3
           ul.lista-ul--color.mb-0
             li.mb-0.d-flex
               i.far.fa-arrow-alt-circle-right
-              p.mb-0 <b>Build</b>: compilar el proyecto.
+              p.mb-0 <b><em>build</em></b>: compilar el proyecto.
             li.mb-0.d-flex
               i.far.fa-arrow-alt-circle-right
               p.mb-0 <b>Test</b>: ejecutar pruebas automatizadas.
@@ -296,7 +296,7 @@
               p.mb-0 Necesidades de personalización y escalabilidad.
             li.mb-0.d-flex
               i.far.fa-arrow-alt-circle-right
-              p.mb-0 Integración con otras herramientas como Docker, Kubernetes o servicios en la nube.
+              p.mb-0 Integración con otras herramientas como <em>Docker</em>, Kubernetes o servicios en la nube.
             li.mb-0.d-flex
               i.far.fa-arrow-alt-circle-right
               p.mb-0 Costos, licencias disponibles y compatibilidad con plugins.
@@ -342,7 +342,7 @@
         figure
           img(src="@/assets/curso/tema1/32.svg", data-aos="zoom-in")
       .col-lg-8.order-lg-1
-        p(data-aos="fade-left") La automatización de tareas mediante integración continua (CI) representa una transformación significativa en la forma en que los equipos de desarrollo gestionan sus procesos de construcción, validación y entrega de software (Smart, 2011). Actividades que antes eran manuales, repetitivas y susceptibles a errores humanos se convierten en flujos automáticos, previsibles y constantes que se ejecutan cada vez que se modifica el código fuente. Esta práctica no solo acelera el desarrollo, sino que también asegura una mayor calidad y coherencia en cada entrega.
+        p(data-aos="fade-left") La automatización de tareas mediante integración continua (CI) representa una transformación significativa en la forma en que los equipos de desarrollo gestionan sus procesos de construcción, validación y entrega de <em>software</em> (Smart, 2011). Actividades que antes eran manuales, repetitivas y susceptibles a errores humanos se convierten en flujos automáticos, previsibles y constantes que se ejecutan cada vez que se modifica el código fuente. Esta práctica no solo acelera el desarrollo, sino que también asegura una mayor calidad y coherencia en cada entrega.
 
     .titulo-figura.mb-4
       h5 Figura 2.
@@ -362,7 +362,7 @@
         figure
           img(src="@/assets/curso/tema1/34.png", data-aos="zoom-in")
       .col-lg-8.order-lg-1
-        p(data-aos="fade-left") Las herramientas de CI permiten automatizar múltiples actividades clave del ciclo de vida del software. Entre las más frecuentes se encuentran:
+        p(data-aos="fade-left") Las herramientas de CI permiten automatizar múltiples actividades clave del ciclo de vida del <em>software</em>. Entre las más frecuentes se encuentran:
     
         .bg-color-1.p-5(data-aos="fade-left").mb-3
           ul.lista-ul--color.mb-0
@@ -413,14 +413,14 @@
                 h5 Retroalimentación rápida
                 p Los errores se detectan en minutos, lo que facilita la colaboración y agiliza la solución de problemas.
     
-    h2(data-aos="fade-left").mb-5 Ejemplo práctico: flujo automatizado con Jenkins
+    h2(data-aos="fade-left").mb-5 Ejemplo práctico: flujo automatizado con <em>Jenkins</em>
 
     .row.mb-5
       .col-lg-4.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema1/36.png", data-aos="zoom-in")
       .col-lg-8
-        p(data-aos="fade-left") Un proyecto en Java que emplea GitHub como repositorio y Jenkins como servidor de CI puede tener el siguiente flujo automatizado:
+        p(data-aos="fade-left") Un proyecto en Java que emplea GitHub como repositorio y <em>Jenkins</em> como servidor de CI puede tener el siguiente flujo automatizado:
     
         .bg-color-6.p-5(data-aos="fade-left").mb-3
           ul.lista-ul--color.mb-0
@@ -481,7 +481,7 @@
           .col-lg-auto
             img(src="@/assets/curso/tema1/10.svg", style="max-width: 90px").mx-auto
           .col-lg.text-white
-            p.mb-0 Estas tareas se configuran en archivos como Jenkinsfile o .gitlab-ci.yml, usando lenguajes declarativos.
+            p.mb-0 Estas tareas se configuran en archivos como <em>Jenkins</em>file o .gitlab-ci.yml, usando lenguajes declarativos.
 
     h2(data-aos="fade-left").mb-5 Integración con otras herramientas
 
@@ -496,7 +496,7 @@
           ul.lista-ul--color.mb-0
             li.mb-0.d-flex
               i.far.fa-arrow-alt-circle-right
-              p.mb-0 <b>Docker</b>: para generar imágenes de contenedores.
+              p.mb-0 <b><em>Docker</em></b>: para generar imágenes de contenedores.
             li.mb-0.d-flex
               i.far.fa-arrow-alt-circle-right
               p.mb-0 <b>Kubernetes</b>: para orquestar despliegues automáticos de microservicios.
@@ -506,14 +506,14 @@
             li.mb-0.d-flex
               i.far.fa-arrow-alt-circle-right
               p.mb-0 <b>Selenium o Cypress</b>: para ejecutar pruebas automatizadas de interfaces gráficas.
-        p La automatización mediante integración continua no es solo una mejora operativa, sino una estrategia central para garantizar la escalabilidad, confiabilidad y sostenibilidad de los proyectos. Al eliminar tareas repetitivas y estandarizar las validaciones, los equipos optimizan su tiempo y mejoran la calidad del software entregado. Este enfoque transforma el desarrollo en un proceso ágil, en el que cada cambio se puede validar y desplegar sin fricción (Naik & Naik, 2024).
+        p La automatización mediante integración continua no es solo una mejora operativa, sino una estrategia central para garantizar la escalabilidad, confiabilidad y sostenibilidad de los proyectos. Al eliminar tareas repetitivas y estandarizar las validaciones, los equipos optimizan su tiempo y mejoran la calidad del <em>software</em> entregado. Este enfoque transforma el desarrollo en un proceso ágil, en el que cada cambio se puede validar y desplegar sin fricción (Naik & Naik, 2024).
 
     .bg-full-width.bg-color-9.mb-5
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-8.order-2.text-white
             h2.mb-4(data-aos="flip-up") Automatización con integración continua
-            p.mb-4(data-aos="fade-right") Se invita a leer el documento Automatización con integración continua, donde se aborda cómo la integración continua (CI) y la automatización transforman los procesos de desarrollo de software en entornos ágiles.
+            p.mb-4(data-aos="fade-right") Se invita a leer el documento Automatización con integración continua, donde se aborda cómo la integración continua (CI) y la automatización transforman los procesos de desarrollo de <em>software</em> en entornos ágiles.
     
             a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
@@ -538,11 +538,11 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.raatti.net/~raatti/books/devops/pdf/learningcontinuousintegrationwithjenkins.pdf " target="_blank" rel="noopener noreferrer") Pathania, N. (2024). Learning Continuous Integration with Jenkins (3.ª ed.). Packt Publishing. Retrieved from 
+              a(href="https://www.raatti.net/~raatti/books/devops/pdf/learningcontinuousintegrationwith<em>Jenkins</em>.pdf " target="_blank" rel="noopener noreferrer") Pathania, N. (2024). Learning Continuous Integration with <em>Jenkins</em> (3.ª ed.). Packt Publishing. Retrieved from 
             
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://pablogarciajc.com/blog/ci-cd-integracion-entrega-continua-desarrollo-software/" target="_blank" rel="noopener noreferrer") García, P. (s. f.). CI/CD: Integración y entrega continua en el desarrollo de software.  
+              a(href="https://pablogarciajc.com/blog/ci-cd-integracion-entrega-continua-desarrollo-<em>software</em>/" target="_blank" rel="noopener noreferrer") García, P. (s. f.). CI/CD: Integración y entrega continua en el desarrollo de <em>software</em>.  
 
             
 

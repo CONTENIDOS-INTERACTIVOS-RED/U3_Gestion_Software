@@ -2,7 +2,7 @@
   .curso-main-container.creditos-vista
     BannerInterno(subTitulo="SÍNTESIS")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      p(data-aos="fade-up").mb-5 La automatización y la entrega continua representan una evolución esencial en los procesos de desarrollo y gestión de software, permitiendo a los equipos mejorar la calidad, la velocidad y la estabilidad de los productos entregados. 
+      p(data-aos="fade-up").mb-5 La automatización y la entrega continua representan una evolución esencial en los procesos de desarrollo y gestión de <em>software</em>, permitiendo a los equipos mejorar la calidad, la velocidad y la estabilidad de los productos entregados. 
 
       .row.justify-content-center
         .col-lg-12.mb-5

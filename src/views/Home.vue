@@ -22,7 +22,7 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 La Unidad 3 del curso “Gestión de Software” aborda la automatización y entrega continua como pilares del desarrollo ágil. Se estudian prácticas de Integración Continua (CI), pruebas automáticas y la implementación de DevOps. A través del diseño de pipelines, herramientas como Jenkins o GitLab CI, y el uso de pruebas automatizadas, se busca mejorar la eficiencia, calidad y velocidad del software. Además, se analiza la cultura DevOps, sus fases de adopción y herramientas clave como Docker, Kubernetes y Terraform. La unidad enfatiza la colaboración, automatización y mejora continua.
+              p.descripcion.mb-4 La Unidad 3 del curso “Gestión de <em>software</em>” aborda la automatización y entrega continua como pilares del desarrollo ágil. Se estudian prácticas de Integración Continua (CI), pruebas automáticas y la implementación de DevOps. A través del diseño de <em>pipelines</em>, herramientas como <em>Jenkins</em> o GitLab CI, y el uso de pruebas automatizadas, se busca mejorar la eficiencia, calidad y velocidad del <em>software</em>. Además, se analiza la cultura DevOps, sus fases de adopción y herramientas clave como <em>Docker</em>, Kubernetes y Terraform. La unidad enfatiza la colaboración, automatización y mejora continua.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

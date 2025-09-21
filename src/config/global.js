@@ -42,7 +42,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Pruebas automáticas en pipelines',
+        titulo: 'Pruebas automáticas en <em>pipelines</em>',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -54,7 +54,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Integración de pruebas en pipelines CI/CD',
+            titulo: 'Integración de pruebas en <em>pipelines</em> CI/CD',
             hash: 't_2_2',
           },
         ],
@@ -124,18 +124,18 @@ export default {
   referencias: [
     {
       referencia:
-        'Smart, J. F. (2011). Jenkins: The Definitive Guide. Apress.  ',
-      link: 'https://archive.org/details/jenkins',
+        'Smart, J. F. (2011). <em>Jenkins</em>: The Definitive Guide. Apress.  ',
+      link: 'https://archive.org/details/<em>Jenkins</em>',
     },
     {
       referencia:
-        'Naik, P., & Naik, G. (2024). Mastering Jenkins Pipeline for Seamless Automation (From Development to Production). Shashwat Publication.  ',
+        'Naik, P., & Naik, G. (2024). Mastering <em>Jenkins</em> Pipeline for Seamless Automation (From Development to Production). Shashwat Publication.  ',
       link:
-        'https://www.researchgate.net/publication/382801641_Mastering_Jenkins_Pipeline_for_Seamless_Automation_From_Development_to_Production',
+        'https://www.researchgate.net/publication/382801641_Mastering_<em>Jenkins</em>_Pipeline_for_Seamless_Automation_From_Development_to_Production',
     },
     {
       referencia:
-        'Guillamón Morales, A. (2013). Manual desarrollo de elementos software para gestión de sistemas: ( ed.). Editorial CEP, S.L.  ',
+        'Guillamón Morales, A. (2013). Manual desarrollo de elementos <em>software</em> para gestión de sistemas: ( ed.). Editorial CEP, S.L.  ',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/50603',
     },
     {
@@ -151,7 +151,7 @@ export default {
     },
     {
       referencia:
-        'Davis, J., & Daniels, K. (2016). Effective DevOps: Building a Culture of Collaboration, Affinity, and Tooling at Scale [PDF]. GitHub.  ',
+        'Davis, J., & Daniels, K. (2016). Effective DevOps: <em>build</em>ing a Culture of Collaboration, Affinity, and Tooling at Scale [PDF]. GitHub.  ',
       link:
         'https://github.com/ahmedamsaleh/Free-DevOps-Books-1/blob/master/book/Effective%20DevOps.pdf',
     },
@@ -160,7 +160,7 @@ export default {
     {
       termino: 'Automatización',
       significado:
-        'proceso mediante el cual se ejecutan tareas sin intervención manual, utilizando scripts, herramientas o sistemas que permiten acelerar actividades repetitivas como pruebas, despliegues y compilaciones en el desarrollo de software.',
+        'proceso mediante el cual se ejecutan tareas sin intervención manual, utilizando scripts, herramientas o sistemas que permiten acelerar actividades repetitivas como pruebas, despliegues y compilaciones en el desarrollo de <em>software</em>.',
     },
     {
       termino: 'CI/CD (Integración Continua / Entrega Continua)',
@@ -170,15 +170,15 @@ export default {
     {
       termino: 'Contenedor',
       significado:
-        'unidad estandarizada de software que empaqueta el código y sus dependencias, asegurando que la aplicación se ejecute de manera consistente en distintos entornos. Docker es una de las herramientas más comunes para contenedores.',
+        'unidad estandarizada de <em>software</em> que empaqueta el código y sus dependencias, asegurando que la aplicación se ejecute de manera consistente en distintos entornos. <em>Docker</em> es una de las herramientas más comunes para contenedores.',
     },
     {
       termino: 'DevOps',
       significado:
-        'cultura y conjunto de prácticas que integran el desarrollo (Dev) y las operaciones (Ops), promoviendo la colaboración, la automatización y la entrega continua para mejorar la calidad del software y reducir el tiempo de entrega.',
+        'cultura y conjunto de prácticas que integran el desarrollo (Dev) y las operaciones (Ops), promoviendo la colaboración, la automatización y la entrega continua para mejorar la calidad del <em>software</em> y reducir el tiempo de entrega.',
     },
     {
-      termino: 'Docker',
+      termino: '<em>Docker</em>',
       significado:
         'plataforma que permite construir, empaquetar y ejecutar aplicaciones dentro de contenedores. Facilita la portabilidad, escalabilidad y consistencia en entornos de desarrollo y producción.',
     },
@@ -193,9 +193,9 @@ export default {
         'práctica que consiste en integrar los cambios de código de manera frecuente en un repositorio compartido, seguido por pruebas automáticas para detectar errores de forma temprana.',
     },
     {
-      termino: 'Jenkins',
+      termino: '<em>Jenkins</em>',
       significado:
-        'herramienta de automatización de código abierto utilizada comúnmente para implementar pipelines de integración y entrega continua. Permite ejecutar tareas de compilación, prueba y despliegue automáticamente.',
+        'herramienta de automatización de código abierto utilizada comúnmente para implementar <em>pipelines</em> de integración y entrega continua. Permite ejecutar tareas de compilación, prueba y despliegue automáticamente.',
     },
     {
       termino: 'Pipeline',
@@ -205,7 +205,7 @@ export default {
     {
       termino: 'Pruebas automatizadas',
       significado:
-        'conjunto de pruebas programadas que se ejecutan sin intervención manual para verificar que el software funcione correctamente después de cada cambio en el código.',
+        'conjunto de pruebas programadas que se ejecutan sin intervención manual para verificar que el <em>software</em> funcione correctamente después de cada cambio en el código.',
     },
     {
       termino: 'Repositorio de código',
@@ -215,7 +215,7 @@ export default {
     {
       termino: 'SonarQube',
       significado:
-        'herramienta de análisis estático de código que se integra en los pipelines de CI para evaluar la calidad del código fuente, detectar errores, vulnerabilidades y asegurar buenas prácticas de desarrollo.',
+        'herramienta de análisis estático de código que se integra en los <em>pipelines</em> de CI para evaluar la calidad del código fuente, detectar errores, vulnerabilidades y asegurar buenas prácticas de desarrollo.',
     },
   ],
 }
