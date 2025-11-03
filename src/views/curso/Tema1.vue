@@ -538,12 +538,7 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.raatti.net/~raatti/books/devops/pdf/learningcontinuousintegrationwith<em>Jenkins</em>.pdf " target="_blank" rel="noopener noreferrer") Pathania, N. (2024). Learning Continuous Integration with <em>Jenkins</em> (3.ª ed.). Packt Publishing. Retrieved from 
-            
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://pablogarciajc.com/blog/ci-cd-integracion-entrega-continua-desarrollo-<em>software</em>/" target="_blank" rel="noopener noreferrer") García, P. (s. f.). CI/CD: Integración y entrega continua en el desarrollo de <em>software</em>.  
-
+              a(href="https://www.raatti.net/~raatti/books/devops/pdf/learningcontinuousintegrationwithjenkins.pdf" target="_blank" rel="noopener noreferrer") Pathania, N. (2024). Learning Continuous Integration with <em>Jenkins</em> (3.ª ed.). Packt Publishing. Retrieved from 
             
 
             p.d-flex.my-4
