@@ -538,12 +538,16 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.raatti.net/~raatti/books/devops/pdf/learningcontinuousintegrationwithjenkins.pdf" target="_blank" rel="noopener noreferrer") Pathania, N. (2024). Learning Continuous Integration with <em>Jenkins</em> (3.ª ed.). Packt Publishing. Retrieved from 
+              a(href="https://www.atlassian.com/es/devops/continuous-delivery-tutorials/continuous-integration-tutorial" target="_blank" rel="noopener noreferrer") Atlassian. (s.f.). Tutorial sobre integración continua. Recuperado de https://www.atlassian.com/es/devops/continuous-delivery-tutorials/continuous-integration-tutorial
             
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.youtube.com/watch?v=Vyv66x7XRmU " target="_blank" rel="noopener noreferrer") KeepCoding - Tech School. (2022, 4 de mayo). ¿Qué es la integración continua o CI?. [Video]. YouTube. 
+              a(href="https://www.youtube.com/watch?v=Vyv66x7XRmU " target="_blank" rel="noopener noreferrer") KeepCoding - Tech School. (2022, 4 de mayo). ¿Qué es la integración continua o CI?. [Video]. YouTube.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=5WDVGB6PsEk" target="_blank" rel="noopener noreferrer") OpenBootcamp. (2023, julio 25). 8 Introducción a CI/CD - Curso Git. [Archivo de Video]. YouTube. 
 
 
 
